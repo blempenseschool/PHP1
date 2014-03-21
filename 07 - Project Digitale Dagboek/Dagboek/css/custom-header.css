@@ -1,0 +1,109 @@
+body.green-bg .page-header {
+  background: #2ecc71;
+  border-bottom: 2px solid #27ae60;
+}
+
+body.green-bg .page-header h1 {
+  text-shadow: 2px 2px 0 #27ae60;
+}
+
+body.green-bg .page-header h1 small {
+  color: #27ae60;
+  display: block;
+  text-shadow: none;
+}
+
+
+body.blue-bg .page-header {
+  background: #3498db;
+  border-bottom: 1px solid #2980b9;
+}
+
+body.blue-bg .page-header h1 {
+  text-shadow: 2px 2px 0 #2980b9;
+}
+
+body.blue-bg .page-header h1 small {
+  color: #2980b9;
+  display: block;
+  text-shadow: none;
+}
+
+
+body.turq-bg .page-header {
+  background: #1abc9c;
+  border-bottom: 1px solid #16a085;
+}
+
+body.turq-bg .page-header h1 {
+  text-shadow: 2px 2px 0 #16a085;
+}
+
+body.turq-bg .page-header h1 small {
+  color: #16a085;
+  display: block;
+  text-shadow: none;
+}
+
+
+body.purple-bg .page-header {
+  background: #9b59b6;
+  border-bottom: 1px solid #8e44ad;
+}
+
+body.purple-bg .page-header h1 {
+  text-shadow: 2px 2px 0 #8e44ad;
+}
+
+body.purple-bg .page-header h1 small {
+  color: #8e44ad;
+  display: block;
+  text-shadow: none;
+}
+
+
+body.carrot-bg .page-header {
+  background: #e67e22;
+  border-bottom: 1px solid #d35400;
+}
+
+body.carrot-bg .page-header h1 {
+  text-shadow: 2px 2px 0 #d35400;
+}
+
+body.carrot-bg .page-header h1 small {
+  color: #d35400;
+  display: block;
+  text-shadow: none;
+}
+
+
+body.asphalt-bg .page-header {
+  background: #34495e;
+  border-bottom: 1px solid #2c3e50;
+}
+
+body.asphalt-bg .page-header h1 {
+  text-shadow: 2px 2px 0 #2c3e50;
+}
+
+body.asphalt-bg .page-header h1 small {
+  color: #2c3e50;
+  display: block;
+  text-shadow: none;
+}
+
+body.concrete-bg .page-header {
+  background: #95a5a6;
+  border-bottom: 1px solid #7f8c8d;
+}
+
+body.concrete-bg .page-header h1 {
+  text-shadow: 2px 2px 0 #7f8c8d;
+}
+
+body.concrete-bg .page-header h1 small {
+  color: #7f8c8d;
+  display: block;
+  text-shadow: none;
+}

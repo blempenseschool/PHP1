@@ -1,0 +1,3 @@
+<?php 
+
+$dbUsername = $dbPassword = "root";

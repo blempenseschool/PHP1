@@ -8,21 +8,25 @@
   <?php 
 
   // Een simpele array aanmaken
-  $array = array("maandag", "dinsdag", "woensdag");
-  $array = ["maandag", "dinsdag", "woensdag"];
+  $array = array("item1", "item2", "item3");
+  $array = ["item1", "item2", "item3"];
 
-  // Een waarde uit een array afdrukken, tel begint bij 0! Het eerste item is dus 0, het tweede 1, ...
+
+  // Maak een array van weekdagen aan en noem deze variabele $dagen.
+  // Maak de array maar van maandag tot vrijdag.
+
+  // Een waarde uit een array afdrukken, tel begint bij 0! 
+  // Het eerste item is dus 0, het tweede 1, ...
   
+  // Druk de 3de dag (woensdag) in de paragraaf af naar het scherm.
+  print "<p></p>";
 
-
-  // Items achteraan de array toevoegen
+  // Items achteraan de array toevoegen met $array[] = "nieuwe waarde";
+  // Voeg zaterdag en zondag nog toe achteraan de array
  
 
-  // Het vijfde item in de array afdrukken
-  
-
-
   // Meerdere inhoudstypen toevoegen
+  // Je kan meerdere variabele typen toevoegen
   $array = array("tekst", 1234, 454.64, "nog tekst");
 
 
@@ -32,6 +36,9 @@
                   'Sarah' => 18);
 
   // Printen uit een associatieve array
+  // Druk de score van Jonas af naar het scherm. Gebruik de twee manieren.
+  print '<p>' . '</p>';
+  print "<p></p>";
   
 
 
@@ -42,6 +49,9 @@
                  "gsm" => 0957348959);
 
   // Printen uit een multidimensionale array
+  // Print het adres van Hans af tussen de paragraaf.
+  print '<p>' . '</p>';
+  print "<p></p>";
   
   
    ?>

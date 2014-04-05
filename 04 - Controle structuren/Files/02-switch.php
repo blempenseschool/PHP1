@@ -10,22 +10,22 @@
    $fruit = "appel";
    
     // als : appel
-       print "<p>Appels zijn lekker!</p>";
+     print "<p>Appels zijn lekker!</p>";
     // als: peer
-       print "<p>Peren zijn minder lekker!</p>";
+     print "<p>Peren zijn minder lekker!</p>";
     // als: citroen
-       print "<p>Citroenen zijn zuur</p>";
+     print "<p>Citroenen zijn zuur</p>";
     // als iets anders
-       print "<p>Dit fruit heb ik nog niet geproeft...</p>";
+     print "<p>Dit fruit heb ik nog niet geproeft...</p>";
 
 
 
-    // als appel en peer
-       print "<p>Dit is lekker fruit!</p>";
-    // als citroen en limoen
-       print "<p>Dit is zuur fruit!!!</p>";
+    // als appel of peer
+     print "<p>Dit is lekker fruit!</p>";
+    // als citroen of limoen
+     print "<p>Dit is zuur fruit!!!</p>";
     // als iets anders
-       print "<p>Dit fruit ken ik niet...</p>";
+     print "<p>Dit fruit ken ik niet...</p>";
 
 
 

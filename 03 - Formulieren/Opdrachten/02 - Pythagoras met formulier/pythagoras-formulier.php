@@ -16,9 +16,8 @@
         </p>
       </td>
       <td>
-
         <form >
-      
+          <!-- Maak hier jouw formulier en vraag de gegevens die je nodig hebt -->
         </form>
       </td>
     </tr>
@@ -28,7 +27,8 @@
   <hr>
   <?php 
 
-    
+    // Maak hier jouw berekening.
+    // Je moet deze gegevens enkel berekenen en tonen indien het formulier verzonden is.
 
   ?>
 </body>

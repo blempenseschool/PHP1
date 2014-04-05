@@ -7,6 +7,7 @@
 <body>
   <?php 
 
+    // Probeer te achterhalen wat de code doet
   
    ?>
 </body>

@@ -7,6 +7,8 @@
 <body>
   <?php 
 
+    // Reken met de $num variabele en plaats de berekening telkens boven het print statement
+
     $num = 8; 
     print "De waarde is nu $num.<br/> \n";   
      

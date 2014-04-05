@@ -6,11 +6,19 @@
 </head>
 <body>
   <h1>Formulieren in PHP</h1>
+  <!-- 
+    Bij een formulier moeten we altijd de "action" en de "method" meegeven.
 
+    Action = de pagina waar we de informatie naartoe sturen
+    Method = POST of GET. Bij formulieren gebruiken we meestal de POST methode
+
+    Bij de input elementen moet we een "name" attribuut meegeven om de gegevens in PHP te kunnen opvragen
+
+   -->
   <form action="" method="post">
     <p>
       <label for="username">Username</label> <br>
-      <input type="text" name="username" id="username">
+      <input type="text" id="username">
     </p>
     <p>
       <input type="submit" value="Verzenden">

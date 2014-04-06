@@ -1,3 +1,8 @@
 <?php 
 
-$dbUsername = $dbPassword = "root";
+// Variabelen initialiseren
+$dbUsername = '';
+$dbPassword = '';
+$dbName = '';
+
+// --> DB connectie maken

@@ -2,10 +2,11 @@
 
 include 'dbConnect.php';
 
-$foutmeldingen = array();
 if ($_POST) {
 
-  // validatie
+  if (empty($_POST['paswoord'])) {
+    $foutmeldingen = "Alle velden zijn verplicht!";
+  }
 
   if (empty($foutmeldingen)) {
   
@@ -21,10 +22,17 @@ if ($_POST) {
 </head>
 <body>
   <h1>Geef het nieuwe wachtwoord in:</h1>
+
+  <?php 
+    if (!empty($foutmeldingen)) {
+      print "<div style=\"color:red;\">$foutmeldingen</div>";
+    }
+   ?>
+
   <p>
+    <!-- Het ID afdrukken bij de action -->
     <form action="<?php print htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
       <input type="password" name="paswoord" id="paswoord"> 
-      <input type="hidden" name="id" value="">
       <input type="submit" value="Wijzig wachtwoord">
     </form>
   </p>

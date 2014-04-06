@@ -1,3 +1,9 @@
+<?php 
+
+// Valideer het formulier
+
+
+ ?>
 <!doctype html>
 <html lang="en">
 <head>

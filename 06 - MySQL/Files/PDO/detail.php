@@ -1,6 +1,11 @@
 <?php 
 
+// Database connectie invoegen
 include 'dbConnect.php';
+
+// ID uit de URL halen en controleren
+
+// Gegevens van het gegeven ID selecteren
 
  ?>
 <!doctype html>

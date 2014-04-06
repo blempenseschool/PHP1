@@ -3,9 +3,11 @@
 
 include 'dbConnect.php';
 
-$foutmeldingen = array();
 if ($_POST) {
-  // validatie
+
+  if (empty($_POST['naam']) || empty($_POST['email']) || empty($_POST['paswoord'])) {
+    $foutmeldingen = "Alle velden zijn verplicht!";
+  }
 
   if (empty($foutmeldingen)) {
     
@@ -22,14 +24,23 @@ if ($_POST) {
 <body>
   <h1>Registreren</h1>
   <a href="lijst.php">Terug naar lijst</a>
+  
+  <?php 
+    if (!empty($foutmeldingen)) {
+      print "<div style=\"color: red;\">$foutmeldingen</div>";
+    } 
+  ?>
+
   <form action="<?php print htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
     <p>
       <label for="naam">Naam:</label> <br>
-      <input type="text" name="naam" id="naam">
+      <!-- Value van naam terug afdrukken in geval van een foutmelding -->
+      <input type="text" name="naam" id="naam" value="<?php if(!empty($_POST['naam'])) { print $_POST['naam']; } ?>">
     </p>
     <p>
       <label for="email">Email:</label> <br>
-      <input type="text" name="email" id="email">
+      <!-- Value van email terug afdrukken in geval van een foutmelding -->
+      <input type="text" name="email" id="email" value="<?php if(!empty($_POST['email'])) { print $_POST['email']; } ?>">
     </p>
     <p>
       <label for="paswoord">Paswoord:</label> <br>

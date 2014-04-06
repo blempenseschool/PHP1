@@ -1,6 +1,9 @@
 <?php
 
+// DB connectie invoegen
 include 'dbConnect.php';
+
+// Alle users selecteren
 
  ?>
 <!doctype html>

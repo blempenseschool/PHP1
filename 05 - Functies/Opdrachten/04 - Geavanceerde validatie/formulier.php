@@ -2,6 +2,14 @@
 
 // Validatie
 
+//--> Twee velden zijn verplicht
+//--> Email adres moet geldig zijn
+//--> Email adres moet een punt bevatten voor het @ teken
+//--> Website adres moet geldig zijn
+//--> Website adres moet beginnen met http:// of https://. Indien de gebruiker dit niet typt en beignt met "www" moet je dit zelf gaan toevoegen aan $_POST['website'].
+//--> Website mag enkel eindigen op .com
+
+
  ?>
 <!doctype html>
 <html lang="en">

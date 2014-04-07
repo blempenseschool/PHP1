@@ -13,7 +13,7 @@
 
 
   $uitkomst = sqrt(13;
-  // print $uitkomst;
+  print "<p>" . $uitkomst . "</p>";
 
 
   $hobby = "<p>Programmeren natuurlijk!</p>";
@@ -27,9 +27,6 @@
   $getal1 = 23;
   $getal3 = 45;
   $uitkomst = $getal1 + $getal2;
-
-
-
 
 
    ?>

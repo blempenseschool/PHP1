@@ -30,10 +30,6 @@
  
 
   // Variabelen berekenen met zichzelf : Een waarde optellen bij Getal1
-  $getal1 = 10;
-  
-
-
   // Verkorte schrijfwijze
   $getal1 = 10;
 
@@ -49,7 +45,7 @@
 
   // Waarde verhogen en verlagen met 1 - Gebruik de andere notatie
   $getal1 += 1;
-  $getal -= 1;
+  $getal1 -= 1;
   
   // Berekeningen groeperen met haakjes - ( )
   // 123 delen door -->  4 maal het getal + 147 gedeeld door 4

@@ -1,4 +1,14 @@
-<!doctype html>
+<?php 
+
+/**
+ * Los deze korte rekenoefening op door middel van PHP.
+ * ----------------------------------------------------
+ * 
+ * Plaats boven elk print statement de gevraagde berekening met de $num variabele.
+ * 
+ */
+
+?><!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -6,8 +16,6 @@
 </head>
 <body>
   <?php 
-
-    // Reken met de $num variabele en plaats de berekening telkens boven het print statement
 
     $num = 8; 
     print "De waarde is nu $num.<br/> \n";   

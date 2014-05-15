@@ -1,10 +1,16 @@
-<!doctype html>
+<?php 
+
+/**
+ * PHP code hier
+ */
+
+?><!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Basis Pagina</title>
 </head>
 <body>
-  <?php ... ?>
+ <!-- HTML output en PHP print statements hier -->
 </body>
 </html>

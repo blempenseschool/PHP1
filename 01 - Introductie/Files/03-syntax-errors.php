@@ -30,26 +30,26 @@
   <?php 
 
 
-  $getal = 12; // elke regel afsluiten met een ;
+  $getal = 12 // elke regel afsluiten met een ;
   $tekst = "<p>Dit is tekst!</p>";
 
 
-  $uitkomst = sqrt(13); // Elke functie correct afsluiten met ( )
+  $uitkomst = sqrt(13; // Elke functie correct afsluiten met ( )
   print "<p>" . $uitkomst . "</p>";
 
 
   $hobby = "<p>Programmeren natuurlijk!</p>";
-  print $hobby; // Correcte benaming voor variabelen gebruiken
+  print $hobbie; // Correcte benaming voor variabelen gebruiken
 
 
   for ($i=0; $i < 10; $i++) { 
     print "<p>De teller is $i!</p>";
-  } // Controle structuren correct afsluiten
+   // Controle structuren correct afsluiten
   
 
   $getal1 = 23;
   $getal2 = 45; // gebruik $getal2 hier , en hieronder
-  $uitkomst = $getal1 + $getal2;
+  $uitkomst = $getal1 + $getal3;
 
 
    ?>

@@ -28,10 +28,10 @@
 
     Geslacht 
     <br>
-    <input type="radio" name="geslacht_man" id="geslacht_man"> 
+    <input type="radio" name="geslacht_man" id="geslacht_man" value="m" checked> 
     <label for="geslacht_man">Man</label>
     <br>
-    <input type="radio" name="geslacht_vrouw" id="geslacht_vrouw"> 
+    <input type="radio" name="geslacht_vrouw" id="geslacht_vrouw" value="v"> 
     <label for="geslacht_vrouw">Vrouw</label>
     <br><br>
 

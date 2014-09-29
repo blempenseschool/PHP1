@@ -1,0 +1,28 @@
+body {
+  width: 500px;
+  margin: 10px auto;
+}
+
+.lijstje li .delete {
+  display: none;
+}
+
+.lijstje li:hover .delete {
+  display: inline-block;
+}
+
+.alert {
+  padding: 10px 15px;
+  margin: 10px 0px;
+}
+
+.alert.success {
+  border: 1px solid green;
+  color: green;
+  
+}
+
+.alert.delete {
+  border: 1px solid red;
+  color: red;
+}

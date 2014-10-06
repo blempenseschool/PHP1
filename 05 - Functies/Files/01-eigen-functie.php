@@ -1,9 +1,9 @@
 <?php 
 
-  function berekenBMI($gewicht, $lengte, $afronden = 2)  
-  {
-    return round($gewicht/(pow($lengte/100, 2)), $afronden);
-  }
+  // Schrijf een functie die het BMI van de gebruiker gaan berekenen.
+  // De functie werkt met de gewicht, lengte en afronden parameters.
+  // De afronden parameter is optioneel.
+  
 
  ?>
 <!doctype html>

@@ -6,7 +6,7 @@
  * 
  * 1. Print vanuit PHP de zin "Hello world!" af naar de HTML pagina.
  * 
- * 2. Plaats deze zin in een variabele bovenaan de pagina en druk deze af in de HTML pagina.
+ * 2. Plaats deze zin in een variabele onder deze zin en druk deze af in de HTML pagina.
  * 
  */
 

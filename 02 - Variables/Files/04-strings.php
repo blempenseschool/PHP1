@@ -64,38 +64,66 @@
     // AANMAKEN VAN EEN STRING //
     /////////////////////////////
 
-    // Plaats hieronder een stukje tekst in een $tekst1 variabele. Gebruik de dubbele aanhalingstekens. Druk deze string af in een paragraaf tag.
+    // 1. Plaats hieronder een stukje tekst in een $tekst1 variabele. Gebruik de dubbele aanhalingstekens. Druk deze string af in een paragraaf tag.
+    
+    
+    
 
-    // Plaats een stukje tekst in een $tekst2 variabele. Gebruik de enkele aanhalingstekens. Druk deze string af in een paragraaf tag.
 
 
-    // Zorg dat de variabele $prijs in de string afgedrukt wordt
+    // 2. Plaats een stukje tekst in een $tekst2 variabele. Gebruik de enkele aanhalingstekens. Druk deze string af in een paragraaf tag.
+
+
+
+
+
+
+
+    // 3. Zorg dat de variabele $prijs in de string afgedrukt wordt
     $prijs = 30;
-    $zin = "<p>De prijs van de schoenen is 30 euro.</p>";
+    $zin = '<p>De prijs van de schoenen is 30 euro.</p>';
     print $zin;
+
+
+
+
     
 
-    // Zorg dat de $prijs in de string tegen het woord "euro" afgedrukt wordt
+    // 4. Zorg dat de $prijs in de string tegen het woord "euro" afgedrukt wordt
     $prijs = 40;
-    $zin = "<p>De prijs van de schoenen is 40euro</p>"; 
+    $zin = '<p>De prijs van de schoenen is 40euro</p>'; 
     print $zin;
 
-
-    // Zorg dat elke zin in dit document op een nieuwe regel komt te staan in de broncode
-    // Dit doe je door \n vooraan of achteraan de string te plaatsen.
     
-    // Plaats "Het is nu wel goed!" tussen dubbele aanhalingstekens
+    
+    
+    
+    // 5. Plaats het stukje "Het is nu wel goed!" tussen dubbele aanhalingstekens. Zorg ervoor dat deze aanhalingstekens te zien zijn op de html pagina.
     $zin1 = "<p>Hij zei: Het is nu wel goed!.</p>";
     print $zin1;
-    // Zorg dat de "\n" afgedrukt wordt in de zin
+
+
+
+
+
+    // 6. Zorg dat de "\n" afgedrukt wordt op de pagina
     $zin2 = "<p>Om een newline te maken moeten we \n gebruiken in een string.</p>";
     print $zin2;
 
 
-    // Plak de prijs en de "</p>" achter de string
+
+
+
+    // 7. Plak de prijs en de sluit-tag "</p>" achter de string
     $prijs = 40;
     $zin = '<p>De prijs van de schoenen is ';  
     print $zin;
+
+
+
+
+    // 8. Zorg dat elke zin in dit document op een nieuwe regel komt te staan in de broncode
+    // Dit doe je door \n achteraan de string te plaatsen.
 
    ?>
 </body>

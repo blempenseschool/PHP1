@@ -18,7 +18,7 @@ $body_class = "afgedrukt-uit-variabele";
   <meta charset="UTF-8">
   <title>Include gebruiken</title>
   <style>
-    .afgedrukt-uit-veriabele {
+    .afgedrukt-uit-variabele {
       color: green;
     }
 

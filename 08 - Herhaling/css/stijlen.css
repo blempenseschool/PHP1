@@ -1,0 +1,52 @@
+@import url(bootstrap.css);
+
+.item {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-top: 1px solid rgba(0,0,0,.1);
+  position: relative;
+}
+
+  .item:first-of-type {
+    margin-top: 0;
+    border-top: none;
+  }
+
+.item .edit-buttons {
+  margin: 0; padding: 0;
+  position: absolute;
+  top: 25px; right: 0;
+  display: none;
+}
+
+  .item:first-of-type .edit-buttons {
+    top: 0;
+  }
+
+
+  .item:hover .edit-buttons {
+    display: block;
+  }
+
+  .item .edit-buttons li {
+    display: inline-block;
+  }
+
+  .item .edit-buttons a {
+    font-size: 1.3em;
+  }
+
+  .item .edit-buttons a.aanpassen {
+    color: orange;
+  }
+
+  .item .edit-buttons a.verwijderen {
+    color: tomato;
+  }
+
+.footer {
+  text-align: center;
+  border-top: 1px solid rgba(0,0,0,.2);
+  padding: 20px;
+  margin-top: 50px;
+}

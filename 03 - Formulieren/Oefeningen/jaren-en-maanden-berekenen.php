@@ -15,7 +15,7 @@
   // Let erop: je mag geen komma getallen tonen. Je moet gehele getallen afdrukken naar het scherm.
   // 
   //--> Je hebt 457 dagen ingegeven.
-  //--> Jaren: 1 ; Maanden: 38
+  //--> Jaren: 1 ; Maanden: 15
 
 
 

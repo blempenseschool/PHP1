@@ -94,7 +94,7 @@
 
   // Tel eerst 123 op bij getal2.
   
-  // Deel getal2 dan door: 4 maal het getal + 147 gedeeld door 4
+  // Deel getal2 dan door: 4 maal het getal2 + 147 gedeeld door 4
 
   
   //--> DRUK DE RESULTATEN AF HIERONDER IN DE HTML PAGINA

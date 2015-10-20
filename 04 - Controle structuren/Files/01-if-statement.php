@@ -43,7 +43,7 @@
     // Print de volgende regel als spaargeld meer is dan 1500
     print "<p>Joepi! Een apple!</p>";
     // Maar print de volgende regel als spaargeld meer is dan 500
-    print "<p><p>Verdorie, een windows computer...</p>";
+    print "<p>Verdorie, een windows computer...</p>";
     // en uiteindelijk...
     print "<p>Jammer, nog even sparen...</p>";
   

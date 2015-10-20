@@ -25,7 +25,7 @@
     
 
     
-    $spaargeld = 200; $prijs_computer = 2000.00;
+    $spaargeld = 2000; $prijs_computer = 2000.00;
     // 3. Deze regel mag afgedrukt worden, ook al is de ene een integer en de andere een float
 
     print "<p>Prijs is hetzelfde.</p>";
